@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/landing-page" component={LandingPage} />
+        <Route path="/landing-page/:user" component={LandingPage} />
 
         <Route path="/" exact component={FormLogin} />
       </Switch>
