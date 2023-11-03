@@ -28,9 +28,9 @@ const Table = () => {
       <table className="min-w-full">
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Universitas</th>
-            <th>Website</th>
+            <td className="px-4 font-bold">ID</td>
+            <td className="font-bold">Universitas</td>
+            <td className="font-bold">Website</td>
           </tr>
         </thead>
         <tbody>
