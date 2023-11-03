@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import axios from "axios";
 
 const FormLogin = () => {
@@ -67,7 +67,7 @@ const FormLogin = () => {
             type="button"
             onClick={handleLogin}
           >
-            Submit
+            <Link to="/landing-page">Submit</Link>
           </button>
         </form>
       </div>
